@@ -11,9 +11,9 @@ function AboutCard() {
             Hi Visitor, I am <span className="purple">Shivesh Shivam </span>
             from <span className="purple"> Greater Noida, India.</span>
             <br />
-            I am currently pursuing B.Tech(CSE) from NIET, Gr. Noida.
+            I recently graduated with a B.Tech in CSE from NIET, Gr. Noida (AKTU, Lucknow).
             <br />
-            Final-year student wielding expertise in Java, Python, Web Development, and DBMS. 
+            A CSE Grad. and a Fresher wielding expertise in Java, Python, Web Development, and DBMS. 
             These skills, honed throughout my academic journey, embody my passion for technology as 
             I approach the professional threshold.
             <br />
