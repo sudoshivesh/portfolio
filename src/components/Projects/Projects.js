@@ -7,6 +7,8 @@ import SecureSign from "../../Assets/Projects/SecureSign.png";
 import portfolioui from "../../Assets/Projects/portfolioui.png";
 import LookSense from "../../Assets/Projects/LookSense.png";
 import ConnectWithCook from "../../Assets/Projects/ConnectWithCook.png";
+import Phishy from "../../Assets/Projects/Phishy.png";
+
 
 function Projects() {
   return (
@@ -67,6 +69,15 @@ function Projects() {
               title="ConnectWithCook - Find and Connect with Cook"
               description="Welcome to Connect With Cook - A web app for students and professionals in Greater Noida to find and connect with cooks directly. Users and new cooks can add details via a contribution form. Built with HTML, CSS, JS, PHP, JSON, Google Sheet API, AppScript, PHP Mailer, Composer."
               ghLink="https://github.com/sudoshivesh/ConnectWithCook"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Phishy}
+              isBlog={false}
+              title="Phishing Website Detection using XGBoost and RFM"
+              description="This project involves predicting phishing URLs by extracting 17 features across three categories. It entails training and testing machine learning models using a dataset sourced from Phishtank."
+              ghLink="https://github.com/sudoshivesh/Phishing-Website-Detection-using-XGBoost-and-RFM"
             />
           </Col>
         </Row>
