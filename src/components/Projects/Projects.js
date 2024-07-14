@@ -6,6 +6,7 @@ import SkySense from "../../Assets/Projects/SkySense.png";
 import SecureSign from "../../Assets/Projects/SecureSign.png";
 import portfolioui from "../../Assets/Projects/portfolioui.png";
 import LookSense from "../../Assets/Projects/LookSense.png";
+import ConnectWithCook from "../../Assets/Projects/ConnectWithCook.png";
 
 function Projects() {
   return (
@@ -56,6 +57,16 @@ function Projects() {
               title="SkySense - A Weather App using Java and OpenWeatherAPI"
               description="SkySense, a Java-based web app with JSP and Servlets, integrates OpenWeatherAPI for real-time updates on temperature, date, time, humidity, and wind speed. Its user-friendly design enhances weather awareness through intuitive location-based search features."
               ghLink="https://github.com/sudoshivesh/SkySense"
+            />
+          </Col>
+
+         <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ConnectWithCook}
+              isBlog={false}
+              title="ConnectWithCook - Find and Connect with Cook"
+              description="Welcome to Connect With Cook - A web app for students and professionals in Greater Noida to find and connect with cooks directly. Users and new cooks can add details via a contribution form. Built with HTML, CSS, JS, PHP, JSON, Google Sheet API, AppScript, PHP Mailer, Composer."
+              ghLink="https://github.com/sudoshivesh/ConnectWithCook"
             />
           </Col>
         </Row>
